@@ -1,6 +1,6 @@
 using System;
 
-namespace DataStructures.Tree
+namespace DataStructures.BinaryTree
 {
 	public class Node
 	{

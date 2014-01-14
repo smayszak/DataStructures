@@ -33,14 +33,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Tree\Node.cs" />
     <Compile Include="SinglyLinkedList\Node.cs" />
     <Compile Include="SinglyLinkedList\Factory.cs" />
-    <Compile Include="Tree\Factory.cs" />
+    <Compile Include="BinaryTree\Node.cs" />
+    <Compile Include="BinaryTree\Factory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Tree\" />
     <Folder Include="SinglyLinkedList\" />
+    <Folder Include="BinaryTree\" />
   </ItemGroup>
 </Project>

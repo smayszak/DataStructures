@@ -1,11 +1,11 @@
 using System;
 using NUnit.Framework;
-using DataStructures.Tree;
+using DataStructures.BinaryTree;
 
 namespace BuilderTests
 {
 	[TestFixture()]
-	public class TreeBuilderTests
+	public class BinaryTreeBuilderTests
 	{
 		[Test()]
 		public void UnbalancedTreeIsUnbalanced ()
