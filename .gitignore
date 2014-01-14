@@ -1,0 +1,5 @@
+test-results/
+*.dll
+*.exe
+*.mdb
+bin/
