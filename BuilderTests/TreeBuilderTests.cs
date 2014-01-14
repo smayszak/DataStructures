@@ -10,7 +10,7 @@ namespace BuilderTests
 		[Test()]
 		public void UnbalancedTreeIsUnbalanced ()
 		{
-			var root = Builder.CreateUnbalancedTree();
+			var root = Factory.CreateUnbalancedTree();
 			var unbalanced = !IsBalanced(root);
 			Assert.IsTrue (unbalanced);
 		}
@@ -18,7 +18,7 @@ namespace BuilderTests
 		[Test()]
 		public void BalancedTreeIsBalanced ()
 		{
-			var root = Builder.CreateBalancedTree(10);
+			var root = Factory.CreateBalancedTree(10);
 			var balanced = IsBalanced(root);
 			Assert.IsTrue (balanced);
 		}

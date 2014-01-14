@@ -2,9 +2,9 @@ using System;
 
 namespace DataStructures.Tree
 {
-	public class Builder
+	public class Factory
 	{
-		public Builder ()
+		public Factory ()
 		{
 		}
 
