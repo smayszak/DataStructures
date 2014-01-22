@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="SinglyLinkedListTests.cs" />
     <Compile Include="BinaryTreeBuilderTests.cs" />
+    <Compile Include="UndirectedGraphTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
