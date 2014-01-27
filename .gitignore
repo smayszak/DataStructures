@@ -1,5 +1,8 @@
 test-results/
+.DS_STORE
 *.dll
 *.exe
 *.mdb
 bin/
+obj/
+*.userprefs
