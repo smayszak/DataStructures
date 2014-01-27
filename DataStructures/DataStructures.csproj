@@ -37,10 +37,19 @@
     <Compile Include="SinglyLinkedList\Factory.cs" />
     <Compile Include="BinaryTree\Node.cs" />
     <Compile Include="BinaryTree\Factory.cs" />
+    <Compile Include="RedBlackTree\Node.cs" />
+    <Compile Include="RedBlackTree\Factory.cs" />
+    <Compile Include="Graphs\Edge.cs" />
+    <Compile Include="Graphs\Graph.cs" />
+    <Compile Include="Graphs\MatrixGraph.cs" />
+    <Compile Include="Graphs\Factory.cs" />
+    <Compile Include="Graphs\Vertex.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="SinglyLinkedList\" />
     <Folder Include="BinaryTree\" />
+    <Folder Include="RedBlackTree\" />
+    <Folder Include="Graphs\" />
   </ItemGroup>
 </Project>
